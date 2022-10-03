@@ -2,7 +2,3 @@
 
 let nadia = prompt("ingresa un valor");
 let resultado;
-
-do{
-    prompt
-}
