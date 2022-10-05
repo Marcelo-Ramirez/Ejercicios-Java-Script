@@ -4,12 +4,15 @@ let valor1 = prompt("ingresa texto");
 let result;
 
 while (valor1 != null){
-    valor1 = prompt("ingresa mas texto");
     if (valor1 && result){
-       
-        result = result + valor1 + "-";
+        valor1 = prompt("ingresa mas texto");
+        if (valor1 != null){
+            result = result + valor1 + "-";
+        }else{
+            result = result
+        }
     }else{
-        result = result + valor1 + "-";
+        result = valor1 + "-";
     }  
 };
 document.write(result);
