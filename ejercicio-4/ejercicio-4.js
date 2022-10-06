@@ -8,8 +8,6 @@ while (valor1 != null){
         valor1 = prompt("ingresa mas texto");
         if (valor1 != null){
             result = result + valor1 + "-";
-        }else{
-            result = result
         }
     }else{
         result = valor1 + "-";
