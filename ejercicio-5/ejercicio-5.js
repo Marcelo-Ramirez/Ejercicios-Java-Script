@@ -9,6 +9,6 @@ let value = prompt("ingresa un numero");
 function typeNumber(value, result){
     result = typeof(value);
     return result;
-};
+}
 
 alert(typeNumber());
