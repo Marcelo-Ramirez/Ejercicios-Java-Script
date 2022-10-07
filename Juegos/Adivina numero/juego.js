@@ -1,14 +1,14 @@
 /* Este juego trata de adivinar el numero con pistas que te dara el programa */
-alert("Adivina el numero secreto");
 
-let value = prompt("ingresa algo");
+secret = 5;
 
-if (!isNaN(value)){
-    while(!isNaN(value)){
-        if (!isNaN(value)){
-            alert("es un numero");
-        }else{
-            alert("no es un numero, intentalo denuevo");
-        }
+while(!(value = parseInt(prompt("ingresa algo")) == secret)){
+    if (value > secret){
+        alert("Este numero es mayor al secreto");
+    }else{
+        alert("Este numero es menor al secreto");
     }
 }
+
+
+
