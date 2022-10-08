@@ -1,8 +1,11 @@
-/* Este juego trata de adivinar el numero con pistas que te dara el programa */
+/* Este juego trata de adivinar el numero secreto*/
 
-secret = 5;
+alert("Adivina el numero secreto");
 
-while(!(value = parseInt(prompt("ingresa algo")) == secret)){
+let secret = 5;
+let value;
+
+while((value = parseInt(prompt("ingresa un numero"))) != secret){
     if (value > secret){
         alert("Este numero es mayor al secreto");
     }else{
@@ -10,5 +13,4 @@ while(!(value = parseInt(prompt("ingresa algo")) == secret)){
     }
 }
 
-
-
+alert("Felicidades");
