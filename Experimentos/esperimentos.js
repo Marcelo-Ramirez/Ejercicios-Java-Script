@@ -19,4 +19,9 @@ let estuche = {
     goma : 2
 }
 
-console.log(estuche["lapiz"])
+console.log(estuche["lapiz"]);
+
+estuche.boligrafo = ["rojo", "azul", "negro"];
+
+console.log(estuche);
+
