@@ -7,7 +7,7 @@ let num3 = parseInt(prompt("ingresa un tercer numero"));
 if (num1 > num2 && num1 > num3){
     document.write(num1 + " es mayor a " + num2 + " y " + num3);
 }else{
-    if(num3 > num1){
+    if(num3 > num2){
             document.write(num3 + " es mayor a " + num2 + " y " + num1);
         
     }else{
