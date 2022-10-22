@@ -3,10 +3,10 @@
 let valor1 = prompt("ingresa texto");
 let result;
 
-while (valor1 != null){
+while (valor1 && true){
     if (valor1 && result){
         valor1 = prompt("ingresa mas texto");
-        if (valor1 != null){
+        if (valor1 && true){
             result = result + valor1 + "-";
         }
     }else{
