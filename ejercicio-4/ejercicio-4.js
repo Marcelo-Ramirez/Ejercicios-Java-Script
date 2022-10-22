@@ -13,4 +13,4 @@ while (valor1 != null){
         result = valor1 + "-";
     }  
 };
-document.write(result);
+document.write(result.substring(0,result.length -1));
